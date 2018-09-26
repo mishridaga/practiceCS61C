@@ -6,11 +6,3 @@ int fib(int n)
       return n; 
    return fib(n-1) + fib(n-2); 
 } 
-  
-int main () 
-{ 
-  int n = 9; 
-  printf("%d", fib(n)); 
-  getchar(); 
-  return 0; 
-}
